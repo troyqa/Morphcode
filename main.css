@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 0px;
 }
 
 @font-face {
@@ -36,8 +37,8 @@ a {
   display: inline-block;
 }
 
-.logo {
-  margin-right: 565px;
+.nav__item:last-child {
+  margin-left: calc(100% - 450px);
 }
 
 .nav__item_menu {
