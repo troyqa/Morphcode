@@ -1,234 +1,226 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Sailec-Bold';  src: local('Sailec-Bold'), 
-    url('https://nomail.com.ua/files/woff/c4d227b95b844bd3b9d4d335c331dd15.woff') 
-    format('woff');
+  font-family: 'Sailec-Bold';
+  src: local('Sailec-Bold'), url('https://nomail.com.ua/files/woff/c4d227b95b844bd3b9d4d335c331dd15.woff') format('woff');
 }
 
 body {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: #434A54;
+  text-decoration: none;
+  color: #434A54;
 }
 
 .wrapper {
-    max-width: 1080px;
-    padding: 0 20px;
-    margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .nav {
-    padding: 28px 0px;
+  padding: 28px 0px;
 }
 
 .nav__item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .logo {
-    margin-right: 565px;
+  margin-right: 565px;
 }
 
 .nav__item_menu {
-    color: #666666;
-    margin-right: 22px;
-    font-size: 16px;
+  color: #666666;
+  margin-right: 22px;
+  font-size: 16px;
 }
 
 .content__block {
-    display: flex;  
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .content__block_information h1 {
-    font-size: 46px;
-    color: #4A4A4A;
-    line-height: 58px;
-    margin-bottom: 20px;
+  font-size: 46px;
+  color: #4A4A4A;
+  line-height: 58px;
+  margin-bottom: 20px;
 }
 
 .content__block_information p {
-    font-size: 18px;
-    color: #434A54;
-    line-height: 30px;
-    margin-bottom: 20px;
+  font-size: 18px;
+  color: #434A54;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .whatwedo {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 #whatwedo_content__block {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .content__block_information h3 {
-    font-size: 36px;
-    color: #4A4A4A;
-    line-height: 43px;
-    margin-bottom: 18px;
+  font-size: 36px;
+  color: #4A4A4A;
+  line-height: 43px;
+  margin-bottom: 18px;
 }
 
 .content__block_link {
-    color: #1D6FF3;
-    font-size: 16px;
+  color: #1D6FF3;
+  font-size: 16px;
 }
 
 #learnwith-information-margin {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .learnwith {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
-
-.blog__title { 
-    color: #4A4A4A;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 12px;
+.blog__title {
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .blog__block_item {
-    position: relative;
-    margin-bottom: 220px;
+  position: relative;
+  margin-bottom: 220px;
 }
 
 .blog__block_item_content {
-    background-color: #ffffff;
-    opacity: .9;
-    
-    position: absolute;  
-    bottom: -160px;
-
-    margin: 0 25px;
-    padding: 20px;
-
-    height: 220px;
+  background-color: #ffffff;
+  opacity: .9;
+  position: absolute;
+  bottom: -160px;
+  margin: 0 25px;
+  padding: 20px;
+  height: 220px;
 }
 
 .blog__block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .blog__block_item_content-title {
-    color: #4A4A4A;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 31px;
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
 }
 
 .blog__block_item_content-p {
-    color: #434A54;
-    font-size: 15px;
-    line-height: 25px;
+  color: #434A54;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .span {
-    border: 1px solid #000000;
-    background-color: #000000;
-    opacity: .1;
-    width: 30px;
-    margin: 4px 0 9px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  opacity: .1;
+  width: 30px;
+  margin: 4px 0 9px;
 }
 
 .subscribe {
-    background-color: #EEEEEE;
+  background-color: #EEEEEE;
 }
 
 .subscribe__block {
-    display: flex;
-    padding: 80px 0;
+  display: flex;
+  padding: 80px 0;
 }
 
 .subscribe__block_content {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .subscribe__block_content_title {
-    font-size: 36px;
-    color: #4A4A4A;
-    font-weight: 700;
+  font-size: 36px;
+  color: #4A4A4A;
+  font-weight: 700;
 }
 
 .subscribe__block_content-p {
-    font-size: 18px;
-    color: #434A54;
-    
+  font-size: 18px;
+  color: #434A54;
 }
 
 .subscribe__block_button {
-    margin-top: 15px;
-    position: relative;
+  margin-top: 15px;
+  position: relative;
 }
 
 .input {
-    width: 300px;
-    padding: 7px;
-    font-size: 18px;
-    font-family: 'Titillium Web';
+  width: 300px;
+  padding: 7px;
+  font-size: 18px;
+  font-family: 'Titillium Web';
 }
 
 .button {
-    color: #ffffff;
-    font-size: 18px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    background: #1D6FF3; 
-    border-radius: 0px 4px 4px 0px;
-    padding: 8px 24px;
-    font-family: 'Titillium Web';
-    position: absolute;
+  color: #ffffff;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #1D6FF3;
+  border-radius: 0px 4px 4px 0px;
+  padding: 8px 24px;
+  font-family: 'Titillium Web';
+  position: absolute;
 }
 
 .footer__block {
-    padding: 50px 0 100px;
-    display: flex;
-    justify-content: space-between;
+  padding: 50px 0 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__block_item {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__block_item_title {
-    font-family: Sailec-Bold;
-    text-transform: uppercase;
-    color: #4A4A4A;
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 15px;
+  font-family: Sailec-Bold;
+  text-transform: uppercase;
+  color: #4A4A4A;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .footer__block_item-a {
-    color: #637280;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 8px;
+  color: #637280;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
 }
 
 .footer__block_item_img img {
-    margin-right: 9px;
+  margin-right: 9px;
 }
 
 #span-footer {
-    margin-top: 17px;
-    margin-bottom: 17px;
+  margin-top: 17px;
+  margin-bottom: 17px;
 }
-
-
